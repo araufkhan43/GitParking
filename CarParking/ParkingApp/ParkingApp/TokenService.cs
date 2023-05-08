@@ -43,6 +43,11 @@ namespace ParkingApp
         {
             var accessToken = await _tokenAcquistion.GetAccessTokenForUserAsync(new[] { _APIScope });
 
+
+
+
+
+
             _httpClinet.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
             _httpClinet.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
         }
