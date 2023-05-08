@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "XhD3VddTmIANxNrHrzAnGvWQviE33pUbHwOn2dV/6Mk=",
+  "Source": "ParkingApp.WebApi",
+  "BasePath": "_content/ParkingApp.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,175 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\ParkingApp.csproj": {}
+  },
+  "projects": {
+    "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\Parking.Business\\Parking.Business.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\Parking.Business\\Parking.Business.csproj",
+        "projectName": "Parking.Business",
+        "projectPath": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\Parking.Business\\Parking.Business.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\Parking.Model\\Parking.Model.csproj": {
+                "projectPath": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\Parking.Model\\Parking.Model.csproj"
+              },
+              "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\Parking.Repository\\Parking.Repository.csproj": {
+                "projectPath": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\Parking.Repository\\Parking.Repository.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\Parking.Model\\Parking.Model.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\Parking.Model\\Parking.Model.csproj",
+        "projectName": "Parking.Model",
+        "projectPath": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\Parking.Model\\Parking.Model.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\Parking.Repository\\Parking.Repository.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\Parking.Repository\\Parking.Repository.csproj",
+        "projectName": "Parking.Repository",
+        "projectPath": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\Parking.Repository\\Parking.Repository.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\Parking.Model\\Parking.Model.csproj": {
+                "projectPath": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\Parking.Model\\Parking.Model.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\ParkingApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\ParkingApp.csproj",
+        "projectName": "ParkingApp",
+        "projectPath": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\ParkingApp.csproj",
+        "packagesPath": "C:\\Users\\Abdul.Khan\\.nuget\\packages\\",
+        "outputPath": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Abdul.Khan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\Parking.Business\\Parking.Business.csproj": {
+                "projectPath": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\Parking.Business\\Parking.Business.csproj"
+              },
+              "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\Parking.Model\\Parking.Model.csproj": {
+                "projectPath": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\Parking.Model\\Parking.Model.csproj"
+              },
+              "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\Parking.Repository\\Parking.Repository.csproj": {
+                "projectPath": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\Parking.Repository\\Parking.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Azure.Storage.Blobs": {
+              "target": "Package",
+              "version": "[12.16.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[3.1.32, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.32, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.32, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.32, )"
+            },
+            "Microsoft.Extensions.Primitives": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Identity.Web": {
+              "target": "Package",
+              "version": "[1.13.0, )"
+            },
+            "Microsoft.Identity.Web.UI": {
+              "target": "Package",
+              "version": "[1.13.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.13, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1261 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ParkingApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ParkingApp.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\CustomCss\\customCSS.css",
+      "PackagePath": "staticwebassets\\CustomCss\\customCSS.css"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Images\\pexels-jimmy-chan-2612855.jpg",
+      "PackagePath": "staticwebassets\\Images\\pexels-jimmy-chan-2612855.jpg"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\Theme\\Images\\ui-bg_glass_75_d0e5f5_1x400.png",
+      "PackagePath": "staticwebassets\\Scripts\\Theme\\Images\\ui-bg_glass_75_d0e5f5_1x400.png"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\Theme\\Images\\ui-bg_glass_85_dfeffc_1x400.png",
+      "PackagePath": "staticwebassets\\Scripts\\Theme\\Images\\ui-bg_glass_85_dfeffc_1x400.png"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\Theme\\Images\\ui-bg_glass_95_fef1ec_1x400.png",
+      "PackagePath": "staticwebassets\\Scripts\\Theme\\Images\\ui-bg_glass_95_fef1ec_1x400.png"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\Theme\\Images\\ui-bg_gloss-wave_55_5c9ccc_500x100.png",
+      "PackagePath": "staticwebassets\\Scripts\\Theme\\Images\\ui-bg_gloss-wave_55_5c9ccc_500x100.png"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\Theme\\Images\\ui-bg_inset-hard_100_f5f8f9_1x100.png",
+      "PackagePath": "staticwebassets\\Scripts\\Theme\\Images\\ui-bg_inset-hard_100_f5f8f9_1x100.png"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\Theme\\Images\\ui-bg_inset-hard_100_fcfdfd_1x100.png",
+      "PackagePath": "staticwebassets\\Scripts\\Theme\\Images\\ui-bg_inset-hard_100_fcfdfd_1x100.png"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\Theme\\Images\\ui-icons_217bc0_256x240.png",
+      "PackagePath": "staticwebassets\\Scripts\\Theme\\Images\\ui-icons_217bc0_256x240.png"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\Theme\\Images\\ui-icons_2e83ff_256x240.png",
+      "PackagePath": "staticwebassets\\Scripts\\Theme\\Images\\ui-icons_2e83ff_256x240.png"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\Theme\\Images\\ui-icons_469bdd_256x240.png",
+      "PackagePath": "staticwebassets\\Scripts\\Theme\\Images\\ui-icons_469bdd_256x240.png"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\Theme\\Images\\ui-icons_6da8d5_256x240.png",
+      "PackagePath": "staticwebassets\\Scripts\\Theme\\Images\\ui-icons_6da8d5_256x240.png"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\Theme\\Images\\ui-icons_cd0a0a_256x240.png",
+      "PackagePath": "staticwebassets\\Scripts\\Theme\\Images\\ui-icons_cd0a0a_256x240.png"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\Theme\\Images\\ui-icons_d8e7f3_256x240.png",
+      "PackagePath": "staticwebassets\\Scripts\\Theme\\Images\\ui-icons_d8e7f3_256x240.png"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\Theme\\Images\\ui-icons_f9bd01_256x240.png",
+      "PackagePath": "staticwebassets\\Scripts\\Theme\\Images\\ui-icons_f9bd01_256x240.png"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\Theme\\jquery-ui.min.css",
+      "PackagePath": "staticwebassets\\Scripts\\Theme\\jquery-ui.min.css"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\bootstrap.js",
+      "PackagePath": "staticwebassets\\Scripts\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\css\\ui.jqgrid.css",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\css\\ui.jqgrid.css"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\css\\ui.jqgrid.min.css",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\css\\ui.jqgrid.min.css"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\css\\ui.jqgrid.min.css.map",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\css\\ui.jqgrid.min.css.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\grid.locale-ar.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\grid.locale-ar.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\grid.locale-bg.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\grid.locale-bg.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\grid.locale-bs.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\grid.locale-bs.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\grid.locale-ca.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\grid.locale-ca.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\grid.locale-cn.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\grid.locale-cn.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\grid.locale-cs.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\grid.locale-cs.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\grid.locale-da.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\grid.locale-da.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\grid.locale-de.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\grid.locale-de.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\grid.locale-el.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\grid.locale-el.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\grid.locale-en.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\grid.locale-en.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\grid.locale-es.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\grid.locale-es.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\grid.locale-fa.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\grid.locale-fa.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\grid.locale-fi.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\grid.locale-fi.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\grid.locale-fr.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\grid.locale-fr.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\grid.locale-gl.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\grid.locale-gl.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\grid.locale-he.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\grid.locale-he.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\grid.locale-hr.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\grid.locale-hr.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\grid.locale-hu.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\grid.locale-hu.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\grid.locale-id.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\grid.locale-id.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\grid.locale-is.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\grid.locale-is.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\grid.locale-it.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\grid.locale-it.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\grid.locale-ja.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\grid.locale-ja.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\grid.locale-kr.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\grid.locale-kr.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\grid.locale-lt.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\grid.locale-lt.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\grid.locale-me.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\grid.locale-me.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\grid.locale-nl.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\grid.locale-nl.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\grid.locale-no.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\grid.locale-no.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\grid.locale-pl.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\grid.locale-pl.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\grid.locale-pt-br.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\grid.locale-pt-br.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\grid.locale-pt.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\grid.locale-pt.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\grid.locale-ro.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\grid.locale-ro.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\grid.locale-ru.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\grid.locale-ru.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\grid.locale-sk.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\grid.locale-sk.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\grid.locale-sl.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\grid.locale-sl.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\grid.locale-sr.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\grid.locale-sr.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\grid.locale-sv.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\grid.locale-sv.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\grid.locale-th.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\grid.locale-th.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\grid.locale-tr.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\grid.locale-tr.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\grid.locale-tw.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\grid.locale-tw.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\grid.locale-ua.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\grid.locale-ua.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\grid.locale-vi.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\grid.locale-vi.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-ar.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-ar.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-ar.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-ar.js.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-bg.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-bg.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-bg.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-bg.js.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-ca.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-ca.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-ca.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-ca.js.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-cn.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-cn.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-cn.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-cn.js.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-cs.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-cs.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-cs.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-cs.js.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-da.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-da.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-da.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-da.js.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-de.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-de.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-de.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-de.js.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-el.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-el.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-el.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-el.js.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-en.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-en.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-en.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-en.js.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-es.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-es.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-es.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-es.js.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-fa.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-fa.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-fa.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-fa.js.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-fi.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-fi.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-fi.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-fi.js.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-fr.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-fr.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-fr.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-fr.js.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-gl.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-gl.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-gl.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-gl.js.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-he.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-he.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-he.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-he.js.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-hr.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-hr.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-hr.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-hr.js.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-hu.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-hu.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-hu.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-hu.js.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-id.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-id.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-id.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-id.js.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-is.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-is.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-is.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-is.js.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-it.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-it.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-it.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-it.js.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-ja.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-ja.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-ja.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-ja.js.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-kr.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-kr.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-kr.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-kr.js.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-lt.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-lt.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-lt.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-lt.js.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-me.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-me.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-me.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-me.js.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-nl.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-nl.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-nl.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-nl.js.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-no.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-no.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-no.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-no.js.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-pl.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-pl.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-pl.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-pl.js.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-pt-br.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-pt-br.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-pt-br.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-pt-br.js.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-pt.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-pt.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-pt.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-pt.js.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-ro.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-ro.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-ro.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-ro.js.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-ru.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-ru.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-ru.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-ru.js.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-sk.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-sk.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-sk.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-sk.js.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-sr.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-sr.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-sr.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-sr.js.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-sv.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-sv.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-sv.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-sv.js.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-th.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-th.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-th.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-th.js.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-tr.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-tr.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-tr.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-tr.js.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-tw.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-tw.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-tw.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-tw.js.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-ua.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-ua.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-ua.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-ua.js.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-vi.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-vi.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-vi.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\i18n\\min\\grid.locale-vi.js.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\jquery.jqgrid.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\jquery.jqgrid.min.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\jquery.jqgrid.min.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\jquery.jqgrid.min.js.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\jquery.jqgrid.src.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\jquery.jqgrid.src.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\modules\\grid.base.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\modules\\grid.base.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\modules\\grid.celledit.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\modules\\grid.celledit.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\modules\\grid.common.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\modules\\grid.common.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\modules\\grid.custom.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\modules\\grid.custom.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\modules\\grid.filter.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\modules\\grid.filter.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\modules\\grid.formedit.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\modules\\grid.formedit.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\modules\\grid.grouping.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\modules\\grid.grouping.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\modules\\grid.import.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\modules\\grid.import.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\modules\\grid.inlinedit.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\modules\\grid.inlinedit.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\modules\\grid.jqueryui.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\modules\\grid.jqueryui.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\modules\\grid.pivot.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\modules\\grid.pivot.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\modules\\grid.subgrid.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\modules\\grid.subgrid.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\modules\\grid.tbltogrid.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\modules\\grid.tbltogrid.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\modules\\grid.treegrid.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\modules\\grid.treegrid.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\modules\\jqdnr.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\modules\\jqdnr.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\modules\\jqmodal.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\modules\\jqmodal.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\modules\\jquery.fmatter.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\modules\\jquery.fmatter.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\modules\\jsonxml.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\modules\\jsonxml.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\modules\\min\\grid.base.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\modules\\min\\grid.base.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\modules\\min\\grid.base.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\modules\\min\\grid.base.js.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\modules\\min\\grid.celledit.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\modules\\min\\grid.celledit.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\modules\\min\\grid.celledit.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\modules\\min\\grid.celledit.js.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\modules\\min\\grid.common.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\modules\\min\\grid.common.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\modules\\min\\grid.common.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\modules\\min\\grid.common.js.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\modules\\min\\grid.custom.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\modules\\min\\grid.custom.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\modules\\min\\grid.custom.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\modules\\min\\grid.custom.js.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\modules\\min\\grid.filter.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\modules\\min\\grid.filter.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\modules\\min\\grid.filter.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\modules\\min\\grid.filter.js.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\modules\\min\\grid.formedit.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\modules\\min\\grid.formedit.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\modules\\min\\grid.formedit.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\modules\\min\\grid.formedit.js.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\modules\\min\\grid.grouping.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\modules\\min\\grid.grouping.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\modules\\min\\grid.grouping.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\modules\\min\\grid.grouping.js.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\modules\\min\\grid.import.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\modules\\min\\grid.import.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\modules\\min\\grid.import.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\modules\\min\\grid.import.js.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\modules\\min\\grid.inlinedit.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\modules\\min\\grid.inlinedit.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\modules\\min\\grid.inlinedit.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\modules\\min\\grid.inlinedit.js.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\modules\\min\\grid.jqueryui.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\modules\\min\\grid.jqueryui.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\modules\\min\\grid.jqueryui.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\modules\\min\\grid.jqueryui.js.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\modules\\min\\grid.pivot.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\modules\\min\\grid.pivot.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\modules\\min\\grid.pivot.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\modules\\min\\grid.pivot.js.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\modules\\min\\grid.subgrid.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\modules\\min\\grid.subgrid.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\modules\\min\\grid.subgrid.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\modules\\min\\grid.subgrid.js.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\modules\\min\\grid.tbltogrid.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\modules\\min\\grid.tbltogrid.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\modules\\min\\grid.tbltogrid.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\modules\\min\\grid.tbltogrid.js.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\modules\\min\\grid.treegrid.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\modules\\min\\grid.treegrid.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\modules\\min\\grid.treegrid.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\modules\\min\\grid.treegrid.js.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\modules\\min\\jqdnr.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\modules\\min\\jqdnr.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\modules\\min\\jqdnr.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\modules\\min\\jqdnr.js.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\modules\\min\\jqmodal.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\modules\\min\\jqmodal.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\modules\\min\\jqmodal.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\modules\\min\\jqmodal.js.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\modules\\min\\jquery.fmatter.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\modules\\min\\jquery.fmatter.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\modules\\min\\jquery.fmatter.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\modules\\min\\jquery.fmatter.js.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\modules\\min\\jsonxml.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\modules\\min\\jsonxml.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\modules\\min\\jsonxml.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\modules\\min\\jsonxml.js.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\plugins\\css\\ui.multiselect.css",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\plugins\\css\\ui.multiselect.css"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\plugins\\css\\ui.multiselect.min.css",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\plugins\\css\\ui.multiselect.min.css"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\plugins\\css\\ui.multiselect.min.css.map",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\plugins\\css\\ui.multiselect.min.css.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\plugins\\grid.odata.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\plugins\\grid.odata.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\plugins\\jquery.contextmenu-ui.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\plugins\\jquery.contextmenu-ui.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\plugins\\jquery.contextmenu.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\plugins\\jquery.contextmenu.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\plugins\\jquery.createcontexmenufromnavigatorbuttons.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\plugins\\jquery.createcontexmenufromnavigatorbuttons.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\plugins\\jquery.jqgrid.showhidecolumnmenu.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\plugins\\jquery.jqgrid.showhidecolumnmenu.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\plugins\\min\\grid.odata.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\plugins\\min\\grid.odata.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\plugins\\min\\grid.odata.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\plugins\\min\\grid.odata.js.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\plugins\\min\\jquery.contextmenu-ui.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\plugins\\min\\jquery.contextmenu-ui.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\plugins\\min\\jquery.contextmenu-ui.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\plugins\\min\\jquery.contextmenu-ui.js.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\plugins\\min\\jquery.contextmenu.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\plugins\\min\\jquery.contextmenu.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\plugins\\min\\jquery.contextmenu.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\plugins\\min\\jquery.contextmenu.js.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\plugins\\min\\jquery.createcontexmenufromnavigatorbuttons.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\plugins\\min\\jquery.createcontexmenufromnavigatorbuttons.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\plugins\\min\\jquery.createcontexmenufromnavigatorbuttons.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\plugins\\min\\jquery.createcontexmenufromnavigatorbuttons.js.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\plugins\\min\\jquery.jqgrid.showhidecolumnmenu.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\plugins\\min\\jquery.jqgrid.showhidecolumnmenu.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\plugins\\min\\jquery.jqgrid.showhidecolumnmenu.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\plugins\\min\\jquery.jqgrid.showhidecolumnmenu.js.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\plugins\\min\\ui.multiselect.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\plugins\\min\\ui.multiselect.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\plugins\\min\\ui.multiselect.js.map",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\plugins\\min\\ui.multiselect.js.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\free-jqgrid\\plugins\\ui.multiselect.js",
+      "PackagePath": "staticwebassets\\Scripts\\free-jqgrid\\plugins\\ui.multiselect.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\jquery-3.4.1.intellisense.js",
+      "PackagePath": "staticwebassets\\Scripts\\jquery-3.4.1.intellisense.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\jquery-3.4.1.js",
+      "PackagePath": "staticwebassets\\Scripts\\jquery-3.4.1.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\jquery-3.4.1.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\jquery-3.4.1.min.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\jquery-3.4.1.min.map",
+      "PackagePath": "staticwebassets\\Scripts\\jquery-3.4.1.min.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\jquery-3.4.1.slim.js",
+      "PackagePath": "staticwebassets\\Scripts\\jquery-3.4.1.slim.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\jquery-3.4.1.slim.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\jquery-3.4.1.slim.min.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\jquery-3.4.1.slim.min.map",
+      "PackagePath": "staticwebassets\\Scripts\\jquery-3.4.1.slim.min.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\jquery.unobtrusive-ajax.js",
+      "PackagePath": "staticwebassets\\Scripts\\jquery.unobtrusive-ajax.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\jquery.unobtrusive-ajax.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\jquery.unobtrusive-ajax.min.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\jquery.validate-vsdoc.js",
+      "PackagePath": "staticwebassets\\Scripts\\jquery.validate-vsdoc.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\Scripts\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\Scripts\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\jqueryui\\jquery-ui.js",
+      "PackagePath": "staticwebassets\\Scripts\\jqueryui\\jquery-ui.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\jqueryui\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\jqueryui\\jquery-ui.min.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\jqueryui\\themes\\base\\images\\ui-icons_444444_256x240.png",
+      "PackagePath": "staticwebassets\\Scripts\\jqueryui\\themes\\base\\images\\ui-icons_444444_256x240.png"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\jqueryui\\themes\\base\\images\\ui-icons_555555_256x240.png",
+      "PackagePath": "staticwebassets\\Scripts\\jqueryui\\themes\\base\\images\\ui-icons_555555_256x240.png"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\jqueryui\\themes\\base\\images\\ui-icons_777620_256x240.png",
+      "PackagePath": "staticwebassets\\Scripts\\jqueryui\\themes\\base\\images\\ui-icons_777620_256x240.png"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\jqueryui\\themes\\base\\images\\ui-icons_777777_256x240.png",
+      "PackagePath": "staticwebassets\\Scripts\\jqueryui\\themes\\base\\images\\ui-icons_777777_256x240.png"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\jqueryui\\themes\\base\\images\\ui-icons_cc0000_256x240.png",
+      "PackagePath": "staticwebassets\\Scripts\\jqueryui\\themes\\base\\images\\ui-icons_cc0000_256x240.png"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\jqueryui\\themes\\base\\images\\ui-icons_ffffff_256x240.png",
+      "PackagePath": "staticwebassets\\Scripts\\jqueryui\\themes\\base\\images\\ui-icons_ffffff_256x240.png"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\jqueryui\\themes\\base\\jquery-ui.css",
+      "PackagePath": "staticwebassets\\Scripts\\jqueryui\\themes\\base\\jquery-ui.css"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\jqueryui\\themes\\base\\jquery-ui.min.css",
+      "PackagePath": "staticwebassets\\Scripts\\jqueryui\\themes\\base\\jquery-ui.min.css"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\jqueryui\\themes\\base\\theme.css",
+      "PackagePath": "staticwebassets\\Scripts\\jqueryui\\themes\\base\\theme.css"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\jqueryui\\themes\\base\\theme.min.css",
+      "PackagePath": "staticwebassets\\Scripts\\jqueryui\\themes\\base\\theme.min.css"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Scripts\\modernizr-2.8.3.js",
+      "PackagePath": "staticwebassets\\Scripts\\modernizr-2.8.3.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\userprofile\\ResignAcceptedMainScreenShot.png",
+      "PackagePath": "staticwebassets\\userprofile\\ResignAcceptedMainScreenShot.png"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\userprofile\\abdulk@mindfiresolutions.com_abdulk@mindfiresolutions.com_loginimage.png",
+      "PackagePath": "staticwebassets\\userprofile\\abdulk@mindfiresolutions.com_abdulk@mindfiresolutions.com_loginimage.png"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\userprofile\\abdulk@mindfiresolutions.com_loginimage.png",
+      "PackagePath": "staticwebassets\\userprofile\\abdulk@mindfiresolutions.com_loginimage.png"
+    },
+    {
+      "Id": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\userprofile\\loginimage.png_abdulk@mindfiresolutions.com",
+      "PackagePath": "staticwebassets\\userprofile\\loginimage.png_abdulk@mindfiresolutions.com"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.ParkingApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.ParkingApp.props",
+      "PackagePath": "build\\ParkingApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.ParkingApp.props",
+      "PackagePath": "buildMultiTargeting\\ParkingApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.ParkingApp.props",
+      "PackagePath": "buildTransitive\\ParkingApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
