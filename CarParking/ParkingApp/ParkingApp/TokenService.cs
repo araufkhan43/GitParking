@@ -7,13 +7,14 @@ namespace ParkingApp
     public interface ITokenServce
     {
         public Task<string> Get();
+        
     }
     public class TokenService : ITokenServce
     {
-        private readonly HttpClient _httpClinet;
-        private readonly string _APIScope = string.Empty;
-        private readonly string _APIBaseAddress = string.Empty;
-        private readonly ITokenAcquisition _tokenAcquistion;
+        public readonly HttpClient _httpClinet;
+        public readonly string _APIScope = string.Empty;
+        public readonly string _APIBaseAddress = string.Empty;
+        public readonly ITokenAcquisition _tokenAcquistion;
 
         public TokenService(ITokenAcquisition tokenAcquisition, HttpClient httpClient, IConfiguration configuration)
         {
@@ -22,7 +23,7 @@ namespace ParkingApp
             _APIScope = configuration["APIConfig:APIScope"];
             _APIBaseAddress = configuration["APIConfig:APIBaseaddress"];
         }
-
+        
         public async Task<string> Get()
         {
             await FindToken();

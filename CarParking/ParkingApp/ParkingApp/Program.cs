@@ -26,6 +26,8 @@ builder.Services.AddDbContext<ParkingContext>(options =>
 });
 builder.Services.AddTransient<IAccountBusiness, AccountBusiness>();
 builder.Services.AddTransient<IAccountRepository, AccountRepository>();
+builder.Services.AddTransient<IParkingZoneBusiness, ParkingZoneBusiness>();
+builder.Services.AddTransient<IParkingZoneRepository, ParkingZoneRepository>();
 
 builder.Services.AddHttpClient<ITokenServce, TokenService>();
 builder.Services.AddMicrosoftIdentityWebAppAuthentication(builder.Configuration).EnableTokenAcquisitionToCallDownstreamApi(new string[] { builder.Configuration["APIConfig:APIScope"] }).AddInMemoryTokenCaches();
@@ -63,7 +65,7 @@ app.UseAuthorization();
 app.UseEndpoints(endpoints => {
     app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=ParkingZone}/{action=Index}/{id?}");
     });
 
 

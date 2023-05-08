@@ -6,6 +6,12 @@ using Microsoft.AspNetCore.Mvc.Authorization;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Identity.Web;
 using Microsoft.Identity.Web.Resource;
+using Parking.Business.Business.Interface;
+using Parking.Business.Business;
+using Parking.Repository.Repository.Interface;
+using Parking.Repository.Repository;
+using Parking.Repository.Context;
+using Microsoft.EntityFrameworkCore;
 
 namespace ParkingApp.WebApi
 {
@@ -19,6 +25,15 @@ namespace ParkingApp.WebApi
             // Add services to the container.
             builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                 .AddMicrosoftIdentityWebApi(builder.Configuration);
+            builder.Services.AddTransient<IAccountBusiness, AccountBusiness>();
+            builder.Services.AddTransient<IAccountRepository, AccountRepository>();
+            builder.Services.AddDbContext<ParkingContext>(options =>
+            {
+                options.UseSqlServer(builder.Configuration.GetConnectionString("Con"), b => b.MigrationsAssembly(typeof(ParkingContext).Assembly.FullName));
+                //options.usesq\(builder.Configuration.GetConnectionString("DefaultConnection"));
+            });
+            builder.Services.AddTransient<IParkingZoneBusiness, ParkingZoneBusiness>();
+            builder.Services.AddTransient<IParkingZoneRepository, ParkingZoneRepository>();
             //    builder.Services.AddAuthentication(AzureADDefaults.BearerAuthenticationScheme)
             //       .AddAzureADBearer(options => builder.Configuration.Bind("AzureAd", options));
             //    builder.Services.AddMicrosoftIdentityWebAppAuthentication(builder.Configuration).EnableTokenAcquisitionToCallDownstreamApi(new string[] { builder.Configuration["APIConfig:APIScope"] }).AddInMemoryTokenCaches();

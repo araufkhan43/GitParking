@@ -10852,11 +10852,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\ParkingApp.csproj",
+      "projectUniqueName": "D:\\Car Parking Backup\\GitHubPro\\GitParking\\CarParking\\ParkingApp\\ParkingApp\\ParkingApp.csproj",
       "projectName": "ParkingApp",
-      "projectPath": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\ParkingApp.csproj",
+      "projectPath": "D:\\Car Parking Backup\\GitHubPro\\GitParking\\CarParking\\ParkingApp\\ParkingApp\\ParkingApp.csproj",
       "packagesPath": "C:\\Users\\Abdul.Khan\\.nuget\\packages\\",
-      "outputPath": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp\\obj\\",
+      "outputPath": "D:\\Car Parking Backup\\GitHubPro\\GitParking\\CarParking\\ParkingApp\\ParkingApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -10876,14 +10876,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\Parking.Business\\Parking.Business.csproj": {
-              "projectPath": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\Parking.Business\\Parking.Business.csproj"
+            "D:\\Car Parking Backup\\GitHubPro\\GitParking\\CarParking\\ParkingApp\\Parking.Business\\Parking.Business.csproj": {
+              "projectPath": "D:\\Car Parking Backup\\GitHubPro\\GitParking\\CarParking\\ParkingApp\\Parking.Business\\Parking.Business.csproj"
             },
-            "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\Parking.Model\\Parking.Model.csproj": {
-              "projectPath": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\Parking.Model\\Parking.Model.csproj"
+            "D:\\Car Parking Backup\\GitHubPro\\GitParking\\CarParking\\ParkingApp\\Parking.Model\\Parking.Model.csproj": {
+              "projectPath": "D:\\Car Parking Backup\\GitHubPro\\GitParking\\CarParking\\ParkingApp\\Parking.Model\\Parking.Model.csproj"
             },
-            "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\Parking.Repository\\Parking.Repository.csproj": {
-              "projectPath": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\Parking.Repository\\Parking.Repository.csproj"
+            "D:\\Car Parking Backup\\GitHubPro\\GitParking\\CarParking\\ParkingApp\\Parking.Repository\\Parking.Repository.csproj": {
+              "projectPath": "D:\\Car Parking Backup\\GitHubPro\\GitParking\\CarParking\\ParkingApp\\Parking.Repository\\Parking.Repository.csproj"
             }
           }
         }

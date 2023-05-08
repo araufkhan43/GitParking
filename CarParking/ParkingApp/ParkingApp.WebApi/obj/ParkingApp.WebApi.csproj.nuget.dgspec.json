@@ -1,17 +1,73 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp.WebApi\\ParkingApp.WebApi.csproj": {}
+    "D:\\Car Parking Backup\\GitHubPro\\GitParking\\CarParking\\ParkingApp\\ParkingApp.WebApi\\ParkingApp.WebApi.csproj": {}
   },
   "projects": {
-    "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp.WebApi\\ParkingApp.WebApi.csproj": {
+    "D:\\Car Parking Backup\\GitHubPro\\GitParking\\CarParking\\ParkingApp\\Parking.Business\\Parking.Business.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\Car Parking Backup\\GitHubPro\\GitParking\\CarParking\\ParkingApp\\Parking.Business\\Parking.Business.csproj",
+        "projectName": "Parking.Business",
+        "projectPath": "D:\\Car Parking Backup\\GitHubPro\\GitParking\\CarParking\\ParkingApp\\Parking.Business\\Parking.Business.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "D:\\Car Parking Backup\\GitHubPro\\GitParking\\CarParking\\ParkingApp\\Parking.Model\\Parking.Model.csproj": {
+                "projectPath": "D:\\Car Parking Backup\\GitHubPro\\GitParking\\CarParking\\ParkingApp\\Parking.Model\\Parking.Model.csproj"
+              },
+              "D:\\Car Parking Backup\\GitHubPro\\GitParking\\CarParking\\ParkingApp\\Parking.Repository\\Parking.Repository.csproj": {
+                "projectPath": "D:\\Car Parking Backup\\GitHubPro\\GitParking\\CarParking\\ParkingApp\\Parking.Repository\\Parking.Repository.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\Car Parking Backup\\GitHubPro\\GitParking\\CarParking\\ParkingApp\\Parking.Model\\Parking.Model.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\Car Parking Backup\\GitHubPro\\GitParking\\CarParking\\ParkingApp\\Parking.Model\\Parking.Model.csproj",
+        "projectName": "Parking.Model",
+        "projectPath": "D:\\Car Parking Backup\\GitHubPro\\GitParking\\CarParking\\ParkingApp\\Parking.Model\\Parking.Model.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\Car Parking Backup\\GitHubPro\\GitParking\\CarParking\\ParkingApp\\Parking.Repository\\Parking.Repository.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\Car Parking Backup\\GitHubPro\\GitParking\\CarParking\\ParkingApp\\Parking.Repository\\Parking.Repository.csproj",
+        "projectName": "Parking.Repository",
+        "projectPath": "D:\\Car Parking Backup\\GitHubPro\\GitParking\\CarParking\\ParkingApp\\Parking.Repository\\Parking.Repository.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "D:\\Car Parking Backup\\GitHubPro\\GitParking\\CarParking\\ParkingApp\\Parking.Model\\Parking.Model.csproj": {
+                "projectPath": "D:\\Car Parking Backup\\GitHubPro\\GitParking\\CarParking\\ParkingApp\\Parking.Model\\Parking.Model.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\Car Parking Backup\\GitHubPro\\GitParking\\CarParking\\ParkingApp\\ParkingApp.WebApi\\ParkingApp.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp.WebApi\\ParkingApp.WebApi.csproj",
+        "projectUniqueName": "D:\\Car Parking Backup\\GitHubPro\\GitParking\\CarParking\\ParkingApp\\ParkingApp.WebApi\\ParkingApp.WebApi.csproj",
         "projectName": "ParkingApp.WebApi",
-        "projectPath": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp.WebApi\\ParkingApp.WebApi.csproj",
+        "projectPath": "D:\\Car Parking Backup\\GitHubPro\\GitParking\\CarParking\\ParkingApp\\ParkingApp.WebApi\\ParkingApp.WebApi.csproj",
         "packagesPath": "C:\\Users\\Abdul.Khan\\.nuget\\packages\\",
-        "outputPath": "D:\\Car Parking Backup\\08-05-2023\\CarParking\\ParkingApp\\ParkingApp.WebApi\\obj\\",
+        "outputPath": "D:\\Car Parking Backup\\GitHubPro\\GitParking\\CarParking\\ParkingApp\\ParkingApp.WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,7 +86,14 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\Car Parking Backup\\GitHubPro\\GitParking\\CarParking\\ParkingApp\\Parking.Business\\Parking.Business.csproj": {
+                "projectPath": "D:\\Car Parking Backup\\GitHubPro\\GitParking\\CarParking\\ParkingApp\\Parking.Business\\Parking.Business.csproj"
+              },
+              "D:\\Car Parking Backup\\GitHubPro\\GitParking\\CarParking\\ParkingApp\\Parking.Model\\Parking.Model.csproj": {
+                "projectPath": "D:\\Car Parking Backup\\GitHubPro\\GitParking\\CarParking\\ParkingApp\\Parking.Model\\Parking.Model.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -54,6 +117,14 @@
             "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
               "target": "Package",
               "version": "[6.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.32, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.32, )"
             },
             "Microsoft.Identity.Web": {
               "target": "Package",
