@@ -1,0 +1,51 @@
+﻿.loginpanel {
+    min-height: 600px;
+    width: 500px;
+    border-radius: 12px;
+    background-color: #09456636;
+}
+.login_Class {
+    height: 150px;
+    width: 150px;
+}
+.field-validation-error {
+    color: red;
+}
+
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-size: 11px;
+}
+
+.form-control {
+    border-radius: 0px;
+}
+
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+
+.navbar-inverse {
+    /* border-color: #080808; */
+    background-image: linear-gradient(to bottom, #00afff9c, #4fb1e2bf,#1984ccab);
+    color: white;
+}
+
+    .navbar-inverse .navbar-nav > li > a {
+        color: white;
+    }
+
+        .navbar-inverse .navbar-nav > li > a:hover {
+            color: lightgrey;
+        }
+
+.panel-primary > .panel-heading {
+    color: #fff;
+    background-image: linear-gradient(to bottom, #81a1bc1a, #337ab799,#1ff1ef75);
+    border-color: #337ab7;
+}
+/*thead {
+               }*/

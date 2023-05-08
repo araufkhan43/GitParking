@@ -1,0 +1,392 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4451BC16-B137-46F8-8E49-D66C74BABD10}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Parking.Business</RootNamespace>
+    <AssemblyName>Parking.Business</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Extensions.Primitives, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Primitives.6.0.0\lib\net461\Microsoft.Extensions.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.4\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Business.Interface\IAccountBusiness.cs" />
+    <Compile Include="Business.Interface\IParkingZoneBusiness.cs" />
+    <Compile Include="Business\AccountBusiness.cs" />
+    <Compile Include="Business\ParkingZoneBusiness.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.js.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map" />
+    <None Include="wwwroot\lib\bootstrap\LICENSE" />
+    <None Include="wwwroot\lib\jquery-validation\LICENSE.md" />
+    <None Include="wwwroot\lib\jquery\dist\jquery.min.map" />
+    <None Include="wwwroot\Scripts\free-jqgrid\css\ui.jqgrid.min.css.map" />
+    <None Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-ar.js.map" />
+    <None Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-bg.js.map" />
+    <None Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-ca.js.map" />
+    <None Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-cn.js.map" />
+    <None Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-cs.js.map" />
+    <None Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-da.js.map" />
+    <None Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-de.js.map" />
+    <None Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-el.js.map" />
+    <None Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-en.js.map" />
+    <None Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-es.js.map" />
+    <None Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-fa.js.map" />
+    <None Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-fi.js.map" />
+    <None Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-fr.js.map" />
+    <None Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-gl.js.map" />
+    <None Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-he.js.map" />
+    <None Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-hr.js.map" />
+    <None Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-hu.js.map" />
+    <None Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-id.js.map" />
+    <None Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-is.js.map" />
+    <None Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-it.js.map" />
+    <None Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-ja.js.map" />
+    <None Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-kr.js.map" />
+    <None Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-lt.js.map" />
+    <None Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-me.js.map" />
+    <None Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-nl.js.map" />
+    <None Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-no.js.map" />
+    <None Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-pl.js.map" />
+    <None Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-pt-br.js.map" />
+    <None Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-pt.js.map" />
+    <None Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-ro.js.map" />
+    <None Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-ru.js.map" />
+    <None Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-sk.js.map" />
+    <None Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-sr.js.map" />
+    <None Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-sv.js.map" />
+    <None Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-th.js.map" />
+    <None Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-tr.js.map" />
+    <None Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-tw.js.map" />
+    <None Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-ua.js.map" />
+    <None Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-vi.js.map" />
+    <None Include="wwwroot\Scripts\free-jqgrid\jquery.jqgrid.min.js.map" />
+    <None Include="wwwroot\Scripts\free-jqgrid\modules\min\grid.base.js.map" />
+    <None Include="wwwroot\Scripts\free-jqgrid\modules\min\grid.celledit.js.map" />
+    <None Include="wwwroot\Scripts\free-jqgrid\modules\min\grid.common.js.map" />
+    <None Include="wwwroot\Scripts\free-jqgrid\modules\min\grid.custom.js.map" />
+    <None Include="wwwroot\Scripts\free-jqgrid\modules\min\grid.filter.js.map" />
+    <None Include="wwwroot\Scripts\free-jqgrid\modules\min\grid.formedit.js.map" />
+    <None Include="wwwroot\Scripts\free-jqgrid\modules\min\grid.grouping.js.map" />
+    <None Include="wwwroot\Scripts\free-jqgrid\modules\min\grid.import.js.map" />
+    <None Include="wwwroot\Scripts\free-jqgrid\modules\min\grid.inlinedit.js.map" />
+    <None Include="wwwroot\Scripts\free-jqgrid\modules\min\grid.jqueryui.js.map" />
+    <None Include="wwwroot\Scripts\free-jqgrid\modules\min\grid.pivot.js.map" />
+    <None Include="wwwroot\Scripts\free-jqgrid\modules\min\grid.subgrid.js.map" />
+    <None Include="wwwroot\Scripts\free-jqgrid\modules\min\grid.tbltogrid.js.map" />
+    <None Include="wwwroot\Scripts\free-jqgrid\modules\min\grid.treegrid.js.map" />
+    <None Include="wwwroot\Scripts\free-jqgrid\modules\min\jqdnr.js.map" />
+    <None Include="wwwroot\Scripts\free-jqgrid\modules\min\jqmodal.js.map" />
+    <None Include="wwwroot\Scripts\free-jqgrid\modules\min\jquery.fmatter.js.map" />
+    <None Include="wwwroot\Scripts\free-jqgrid\modules\min\jsonxml.js.map" />
+    <None Include="wwwroot\Scripts\free-jqgrid\plugins\css\ui.multiselect.min.css.map" />
+    <None Include="wwwroot\Scripts\free-jqgrid\plugins\min\grid.odata.js.map" />
+    <None Include="wwwroot\Scripts\free-jqgrid\plugins\min\jquery.contextmenu-ui.js.map" />
+    <None Include="wwwroot\Scripts\free-jqgrid\plugins\min\jquery.contextmenu.js.map" />
+    <None Include="wwwroot\Scripts\free-jqgrid\plugins\min\jquery.createcontexmenufromnavigatorbuttons.js.map" />
+    <None Include="wwwroot\Scripts\free-jqgrid\plugins\min\jquery.jqgrid.showhidecolumnmenu.js.map" />
+    <None Include="wwwroot\Scripts\free-jqgrid\plugins\min\ui.multiselect.js.map" />
+    <None Include="wwwroot\Scripts\jquery-3.4.1.min.map" />
+    <None Include="wwwroot\Scripts\jquery-3.4.1.slim.min.map" />
+    <None Include="wwwroot\userprofile\loginimage.png_abdulk%40mindfiresolutions.com" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Parking.Model\Parking.Model.csproj">
+      <Project>{f3ee3274-83c7-4a58-9f70-732e6ff32e03}</Project>
+      <Name>Parking.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Parking.Repository\Parking.Repository.csproj">
+      <Project>{421e36ec-9837-4261-a480-352659312df6}</Project>
+      <Name>Parking.Repository</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="wwwroot\css\site.css" />
+    <Content Include="wwwroot\CustomCss\customCSS.css" />
+    <Content Include="wwwroot\favicon.ico" />
+    <Content Include="wwwroot\js\site.js" />
+    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css" />
+    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css" />
+    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css" />
+    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css" />
+    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css" />
+    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css" />
+    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css" />
+    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css" />
+    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css" />
+    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css" />
+    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css" />
+    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css" />
+    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap.css" />
+    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap.min.css" />
+    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css" />
+    <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css" />
+    <Content Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js" />
+    <Content Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js" />
+    <Content Include="wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js" />
+    <Content Include="wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js" />
+    <Content Include="wwwroot\lib\bootstrap\dist\js\bootstrap.js" />
+    <Content Include="wwwroot\lib\bootstrap\dist\js\bootstrap.min.js" />
+    <Content Include="wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js" />
+    <Content Include="wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js" />
+    <Content Include="wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt" />
+    <Content Include="wwwroot\lib\jquery-validation\dist\additional-methods.js" />
+    <Content Include="wwwroot\lib\jquery-validation\dist\additional-methods.min.js" />
+    <Content Include="wwwroot\lib\jquery-validation\dist\jquery.validate.js" />
+    <Content Include="wwwroot\lib\jquery-validation\dist\jquery.validate.min.js" />
+    <Content Include="wwwroot\lib\jquery\dist\jquery.js" />
+    <Content Include="wwwroot\lib\jquery\dist\jquery.min.js" />
+    <Content Include="wwwroot\lib\jquery\LICENSE.txt" />
+    <Content Include="wwwroot\Scripts\bootstrap.js" />
+    <Content Include="wwwroot\Scripts\bootstrap.min.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\css\ui.jqgrid.css" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\css\ui.jqgrid.min.css" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\grid.locale-ar.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\grid.locale-bg.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\grid.locale-bs.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\grid.locale-ca.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\grid.locale-cn.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\grid.locale-cs.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\grid.locale-da.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\grid.locale-de.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\grid.locale-el.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\grid.locale-en.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\grid.locale-es.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\grid.locale-fa.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\grid.locale-fi.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\grid.locale-fr.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\grid.locale-gl.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\grid.locale-he.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\grid.locale-hr.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\grid.locale-hu.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\grid.locale-id.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\grid.locale-is.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\grid.locale-it.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\grid.locale-ja.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\grid.locale-kr.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\grid.locale-lt.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\grid.locale-me.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\grid.locale-nl.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\grid.locale-no.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\grid.locale-pl.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\grid.locale-pt-br.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\grid.locale-pt.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\grid.locale-ro.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\grid.locale-ru.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\grid.locale-sk.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\grid.locale-sl.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\grid.locale-sr.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\grid.locale-sv.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\grid.locale-th.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\grid.locale-tr.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\grid.locale-tw.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\grid.locale-ua.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\grid.locale-vi.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-ar.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-bg.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-ca.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-cn.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-cs.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-da.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-de.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-el.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-en.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-es.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-fa.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-fi.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-fr.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-gl.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-he.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-hr.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-hu.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-id.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-is.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-it.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-ja.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-kr.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-lt.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-me.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-nl.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-no.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-pl.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-pt-br.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-pt.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-ro.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-ru.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-sk.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-sr.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-sv.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-th.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-tr.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-tw.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-ua.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\i18n\min\grid.locale-vi.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\jquery.jqgrid.min.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\jquery.jqgrid.src.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\modules\grid.base.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\modules\grid.celledit.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\modules\grid.common.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\modules\grid.custom.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\modules\grid.filter.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\modules\grid.formedit.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\modules\grid.grouping.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\modules\grid.import.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\modules\grid.inlinedit.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\modules\grid.jqueryui.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\modules\grid.pivot.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\modules\grid.subgrid.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\modules\grid.tbltogrid.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\modules\grid.treegrid.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\modules\jqdnr.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\modules\jqmodal.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\modules\jquery.fmatter.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\modules\jsonxml.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\modules\min\grid.base.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\modules\min\grid.celledit.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\modules\min\grid.common.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\modules\min\grid.custom.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\modules\min\grid.filter.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\modules\min\grid.formedit.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\modules\min\grid.grouping.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\modules\min\grid.import.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\modules\min\grid.inlinedit.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\modules\min\grid.jqueryui.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\modules\min\grid.pivot.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\modules\min\grid.subgrid.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\modules\min\grid.tbltogrid.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\modules\min\grid.treegrid.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\modules\min\jqdnr.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\modules\min\jqmodal.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\modules\min\jquery.fmatter.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\modules\min\jsonxml.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\plugins\css\ui.multiselect.css" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\plugins\css\ui.multiselect.min.css" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\plugins\grid.odata.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\plugins\jquery.contextmenu-ui.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\plugins\jquery.contextmenu.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\plugins\jquery.createcontexmenufromnavigatorbuttons.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\plugins\jquery.jqgrid.showhidecolumnmenu.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\plugins\min\grid.odata.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\plugins\min\jquery.contextmenu-ui.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\plugins\min\jquery.contextmenu.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\plugins\min\jquery.createcontexmenufromnavigatorbuttons.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\plugins\min\jquery.jqgrid.showhidecolumnmenu.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\plugins\min\ui.multiselect.js" />
+    <Content Include="wwwroot\Scripts\free-jqgrid\plugins\ui.multiselect.js" />
+    <Content Include="wwwroot\Scripts\jquery-3.4.1.intellisense.js" />
+    <Content Include="wwwroot\Scripts\jquery-3.4.1.js" />
+    <Content Include="wwwroot\Scripts\jquery-3.4.1.min.js" />
+    <Content Include="wwwroot\Scripts\jquery-3.4.1.slim.js" />
+    <Content Include="wwwroot\Scripts\jquery-3.4.1.slim.min.js" />
+    <Content Include="wwwroot\Scripts\jquery.unobtrusive-ajax.js" />
+    <Content Include="wwwroot\Scripts\jquery.unobtrusive-ajax.min.js" />
+    <Content Include="wwwroot\Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="wwwroot\Scripts\jquery.validate.js" />
+    <Content Include="wwwroot\Scripts\jquery.validate.min.js" />
+    <Content Include="wwwroot\Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="wwwroot\Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="wwwroot\Scripts\jqueryui\jquery-ui.js" />
+    <Content Include="wwwroot\Scripts\jqueryui\jquery-ui.min.js" />
+    <Content Include="wwwroot\Scripts\jqueryui\themes\base\images\ui-icons_444444_256x240.png" />
+    <Content Include="wwwroot\Scripts\jqueryui\themes\base\images\ui-icons_555555_256x240.png" />
+    <Content Include="wwwroot\Scripts\jqueryui\themes\base\images\ui-icons_777620_256x240.png" />
+    <Content Include="wwwroot\Scripts\jqueryui\themes\base\images\ui-icons_777777_256x240.png" />
+    <Content Include="wwwroot\Scripts\jqueryui\themes\base\images\ui-icons_cc0000_256x240.png" />
+    <Content Include="wwwroot\Scripts\jqueryui\themes\base\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="wwwroot\Scripts\jqueryui\themes\base\jquery-ui.css" />
+    <Content Include="wwwroot\Scripts\jqueryui\themes\base\jquery-ui.min.css" />
+    <Content Include="wwwroot\Scripts\jqueryui\themes\base\theme.css" />
+    <Content Include="wwwroot\Scripts\jqueryui\themes\base\theme.min.css" />
+    <Content Include="wwwroot\Scripts\modernizr-2.8.3.js" />
+    <Content Include="wwwroot\Scripts\Theme\Images\ui-bg_glass_75_d0e5f5_1x400.png" />
+    <Content Include="wwwroot\Scripts\Theme\Images\ui-bg_glass_85_dfeffc_1x400.png" />
+    <Content Include="wwwroot\Scripts\Theme\Images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="wwwroot\Scripts\Theme\Images\ui-bg_gloss-wave_55_5c9ccc_500x100.png" />
+    <Content Include="wwwroot\Scripts\Theme\Images\ui-bg_inset-hard_100_f5f8f9_1x100.png" />
+    <Content Include="wwwroot\Scripts\Theme\Images\ui-bg_inset-hard_100_fcfdfd_1x100.png" />
+    <Content Include="wwwroot\Scripts\Theme\Images\ui-icons_217bc0_256x240.png" />
+    <Content Include="wwwroot\Scripts\Theme\Images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="wwwroot\Scripts\Theme\Images\ui-icons_469bdd_256x240.png" />
+    <Content Include="wwwroot\Scripts\Theme\Images\ui-icons_6da8d5_256x240.png" />
+    <Content Include="wwwroot\Scripts\Theme\Images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="wwwroot\Scripts\Theme\Images\ui-icons_d8e7f3_256x240.png" />
+    <Content Include="wwwroot\Scripts\Theme\Images\ui-icons_f9bd01_256x240.png" />
+    <Content Include="wwwroot\Scripts\Theme\jquery-ui.min.css" />
+    <Content Include="wwwroot\userprofile\abdulk%40mindfiresolutions.com_abdulk%40mindfiresolutions.com_loginimage.png" />
+    <Content Include="wwwroot\userprofile\abdulk%40mindfiresolutions.com_loginimage.png" />
+    <Content Include="wwwroot\userprofile\ResignAcceptedMainScreenShot.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
