@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "RF6Fgb3WI54vvjcA8TjtHeqG8aPShZ3cIcOXsuuJ0HA=",
+  "Hash": "BhjUMAWI5mzXFoJ0DR3lGBI/SdiR6LYeCFV2/FIix8Q=",
   "Source": "ParkingApp",
   "BasePath": "_content/ParkingApp",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\CustomCss\\customCSS.css"
+    },
+    {
+      "Identity": "D:\\Car Parking Backup\\GitHubPro\\GitParking\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\CustomJs\\Dashboard.js",
+      "SourceId": "ParkingApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Car Parking Backup\\GitHubPro\\GitParking\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\",
+      "BasePath": "_content/ParkingApp",
+      "RelativePath": "CustomJs/Dashboard.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\CustomJs\\Dashboard.js"
     },
     {
       "Identity": "D:\\Car Parking Backup\\GitHubPro\\GitParking\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\favicon.ico",

@@ -1,0 +1,80 @@
+﻿@using Parking.Model.ParkingArea
+@model ParkingArea
+@{
+    ViewBag.Title = "Add";
+}
+
+
+<form asp-action="AddUpdate" asp-controller="ParkingArea">
+
+
+    <div class="container">
+        @if (@TempData["Message"] != null)
+        {
+            @TempData["Message"]
+        }
+
+
+
+        <div class="panel panel-primary">
+            <div class="panel-heading">Add Parking Space</div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-md-12" style="text-align:right;">
+                        @Html.ActionLink("Go to list", "Index", new { id = 0 },  new { @class = "btn btn-xs btn-primary" })
+                    </div>
+                    <input type="hidden" asp-for="Id" />
+
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-12">
+                               
+                                
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <label asp-for="Parking_Space_Title">Parking Space<span style="color:red;">*</span></label>
+
+                                        <input type="text" asp-for="Parking_Space_Title" class="form-control input-sm" />
+                                        <span asp-validation-for="Parking_Space_Title"></span>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <label asp-for="Parking_Zone_Title">Zone<span style="color:red;">*</span></label>
+
+                                        <select asp-for="Parking_Zone_Id"
+                                                class="form-control"
+                                                asp-items="@(new SelectList(Model.parkinZonelist,"Id","Parking_Zone_Title"))">
+                                            <option value="">Choose an option</option>
+                                        </select>
+                                        <span asp-validation-for="Parking_Zone_Id"></span>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+
+                                    <div>&nbsp;&nbsp;</div>
+                                    <div class="form-check">
+                                        <div class="form-group">
+                                            <input type="checkbox" asp-for="Is_Active" class="form-check-input" />
+
+
+                                            <label asp-for="Is_Active">Is Active<span style="color:red;">*</span></label>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="panel-footer" style="text-align:right;">
+                <input type="submit" value="Save" class="btn btn-success btn-sm" />
+
+            </div>
+        </div>
+    </div>
+</form>

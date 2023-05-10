@@ -27,6 +27,8 @@ namespace ParkingApp.WebApi
                 .AddMicrosoftIdentityWebApi(builder.Configuration);
             builder.Services.AddTransient<IAccountBusiness, AccountBusiness>();
             builder.Services.AddTransient<IAccountRepository, AccountRepository>();
+            builder.Services.AddTransient<IParkingSpaceBusiness, ParkingSpaceBusiness>();
+            builder.Services.AddTransient<IParkingSpaceRepository, ParkingSpaceRepository>();
             builder.Services.AddDbContext<ParkingContext>(options =>
             {
                 options.UseSqlServer(builder.Configuration.GetConnectionString("Con"), b => b.MigrationsAssembly(typeof(ParkingContext).Assembly.FullName));
@@ -49,6 +51,7 @@ namespace ParkingApp.WebApi
             //});
 
             builder.Services.AddControllers();
+           
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();

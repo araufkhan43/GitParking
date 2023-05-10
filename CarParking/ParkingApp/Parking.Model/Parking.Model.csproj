@@ -69,8 +69,10 @@
   <ItemGroup>
     <Compile Include="Account\UserMaster.cs" />
     <Compile Include="Class1.cs" />
+    <Compile Include="ParkingAreas\ParkingArea.cs" />
     <Compile Include="ParkingZone\ParkingZone.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VehicleParking\VehicleParking.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />

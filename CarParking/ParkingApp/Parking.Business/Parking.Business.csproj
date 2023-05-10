@@ -58,8 +58,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Business.Interface\IAccountBusiness.cs" />
+    <Compile Include="Business.Interface\IParkingSpaceBusiness.cs" />
     <Compile Include="Business.Interface\IParkingZoneBusiness.cs" />
     <Compile Include="Business\AccountBusiness.cs" />
+    <Compile Include="Business\ParkingSpaceBusiness.cs" />
     <Compile Include="Business\ParkingZoneBusiness.cs" />
     <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

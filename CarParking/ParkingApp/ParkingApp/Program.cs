@@ -65,7 +65,7 @@ app.UseAuthorization();
 app.UseEndpoints(endpoints => {
     app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=ParkingZone}/{action=Index}/{id?}");
+    pattern: "{controller=Dashboard}/{action=Index}/{id?}");
     });
 
 

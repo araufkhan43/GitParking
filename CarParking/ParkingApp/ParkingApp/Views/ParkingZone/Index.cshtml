@@ -4,8 +4,13 @@
 <div class="container">
     @if (@TempData["Message"] != null)
     {
-        @TempData["Message"]
+        <div class="alert alert-success alert-dismissible">
+            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+            <strong>Success!</strong>
+            @TempData["Message"]
+        </div>
     }
+
 
 
     <h2></h2>
@@ -14,7 +19,7 @@
         <div class="panel-body">
             <div class="row">
                 <div class="col-md-12" style="text-align:right;">
-                    @Html.ActionLink("Add  New Employee", "Create", "Employee", new { }, new { @class = "btn btn-xs btn-primary" })
+                    @Html.ActionLink("Add  New Zone", "Add", "ParkingZone", new { }, new { @class = "btn btn-xs btn-primary" })
                 </div>
                 <div class="col-md-12"></div>
                 <div class="col-md-12"></div>
@@ -22,11 +27,11 @@
 
                 <div class="col-md-12">
                     <br />
-                    <table class="table table-bordered">
+                    <table class="table table-bordered dataTable">
                         <thead style="background-image: linear-gradient(to bottom, #81a1bc47, #1a8bed03,#36393947 ">
                             <tr>
-                                <th>@Html.DisplayNameFor(model => model[0].Parking_Zone_Title)</th>
-                                <th>@Html.DisplayNameFor(model => model[0].Is_Active)</th>
+                                <th>Parking Zone Title</th>
+                                <th>Status</th>
                                 
 
                                 <th>@Html.DisplayName("Action")</th>
@@ -37,12 +42,13 @@
                             {
                                 <tr>
                                     <td>@item.Parking_Zone_Title</td>
-                                    <td>@item.Is_Active</td>
+                                    <td> @(item.Is_Active ? "Active" : "InActive")</td>
                                    
 
                                     <td>
                                         @Html.ActionLink("Edit", "Edit", new { id = @item.Id }, new { @class = "btn btn-xs btn-primary" }) |
-                                        <input type="button" onclick="DelteConfirm( @item.Id )" value="Delete" class="btn btn-xs btn-danger" />
+                                        @Html.ActionLink("Delete", "Delete", new { id = @item.Id }, new { @class = "btn btn-xs btn-danger" }) |
+                                        @*<input type="button" onclick="DelteConfirm( @item.Id )" value="Delete" class="btn btn-xs btn-danger" />*@
 
                                         @* @Html.ActionLink("Delete", "DeleteStudent", new { id = @item.Id }, new { @class = "btn btn-xs btn-danger", style = "display:none", id = "btndelete_" + @item.Id + "" })*@
 

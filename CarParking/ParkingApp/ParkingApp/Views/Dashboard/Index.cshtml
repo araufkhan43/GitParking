@@ -1,0 +1,146 @@
+﻿@using Parking.Model.ParkingArea
+@model ParkingArea
+@{
+    ViewBag.Title = "Add";
+}
+<div class="container">
+    @if (@TempData["Message"] != null)
+    {
+        <div class="alert alert-success alert-dismissible">
+            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+            <strong>Success!</strong>
+            @TempData["Message"]
+        </div>
+    }
+
+
+
+   
+    <div class="panel panel-primary">
+        <div class="panel-heading">Parking Booking List</div>
+        <div class="panel-body">
+            <div class="row">
+                <div class="col-md-12" style="text-align:right;">
+                </div>
+                <div class="col-md-12">
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label asp-for="Parking_Zone_Title">Zone<span style="color:red;">*</span></label>
+
+                            <select asp-for="Parking_Zone_Id"
+                                    class="form-control"
+                                    asp-items="@(new SelectList(Model.parkinZonelist,"Id","Parking_Zone_Title"))" onchange="getlist(this)">
+                                    <option value="">Choose an option</option>
+                            </select>
+                            <span asp-validation-for="Parking_Zone_Id"></span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-12">
+                   
+                    <table id="space_table" class="table table-bordered dataTable">
+                        <thead style="background-image: linear-gradient(to bottom, #81a1bc47, #1a8bed03,#36393947 ">
+                            <tr>
+                                <th>Parking Zone Title</th>
+                                <th>Parking Space Title</th>
+                                <th>Parking Status</th>
+                                <th>Action</th>
+
+
+                                
+                            </tr>
+                        </thead>
+                        <tbody>
+                            
+                        </tbody>
+                    </table>
+                   
+                    @*<link href="~/Scripts/free-jqgrid/css/ui.jqgrid.min.css" rel="stylesheet" />*@
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    
+    <!-- Trigger the modal with a button -->
+    @*<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>*@
+
+    <!-- Modal -->
+    <div class="modal fade" id="BookingModal" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button id="ids" type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Book your ParkingSpace</h4>
+                </div>
+                <div class="modal-body" >
+                   
+                    <div class="row">
+                    <div class="col-md-3">
+                        <div class="form-group">
+                            <label asp-for="Parking_Space_Title">Parking Zone</label>
+
+
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="">
+                            <span id="lblZone"></span>
+
+
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="form-group">
+                            <label asp-for="Parking_Space_Title">Parking Space</label>
+
+
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="">
+                            <span id="lblSpace"></span>
+
+
+                        </div>
+                    </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label asp-for="Parking_Space_Title">Booking Time</label>
+                                <input type="text" id="txt_book_time" class="form-control input-sm" />
+
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label asp-for="Parking_Space_Title">Release Time</label>
+                                <input type="text" id="txt_release_time" class="form-control input-sm" />
+
+                            </div>
+                        </div>
+                       
+                    </div>
+                    
+                </div>
+                <div class="modal-footer">
+                    <button type="button" id="btnSave" class="btn btn-success" onclick="Save()">Save</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+@section Scripts{
+
+    <script src="~/customjs/dashboard.js"></script>
+
+    }

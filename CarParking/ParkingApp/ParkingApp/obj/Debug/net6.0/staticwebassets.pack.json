@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\CustomCss\\customCSS.css"
     },
     {
+      "Id": "D:\\Car Parking Backup\\GitHubPro\\GitParking\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\CustomJs\\Dashboard.js",
+      "PackagePath": "staticwebassets\\CustomJs\\Dashboard.js"
+    },
+    {
       "Id": "D:\\Car Parking Backup\\GitHubPro\\GitParking\\CarParking\\ParkingApp\\ParkingApp\\wwwroot\\Images\\pexels-jimmy-chan-2612855.jpg",
       "PackagePath": "staticwebassets\\Images\\pexels-jimmy-chan-2612855.jpg"
     },

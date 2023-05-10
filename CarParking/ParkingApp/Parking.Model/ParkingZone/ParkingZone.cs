@@ -15,5 +15,6 @@ namespace Parking.Model.ParkingZone
         public string Parking_Zone_Title { get; set; }
 
         public bool Is_Active { get; set; }
+        public DateTime CreatedOn { get; set; }
     }
 }

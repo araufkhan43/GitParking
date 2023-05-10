@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Parking.Model.ParkingZone;
 using Parking.Model.Account;
+using Parking.Model.ParkingArea;
 
 namespace Parking.Repository.Context
 {
@@ -19,5 +20,6 @@ namespace Parking.Repository.Context
         }
         public virtual DbSet<ParkingZone> ParkingZones { get; set; }
         public virtual DbSet<UserMaster> UserMasters { get; set; }
+        public virtual DbSet<ParkingArea> ParkingSpace { get; set; }
     }
 }

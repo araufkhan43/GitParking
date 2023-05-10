@@ -38,7 +38,7 @@ namespace ParkingFunctionApp.ParkingZone
                     _reader.Read();
                     obj.Id = _reader.GetInt32(0);
                     obj.Parking_Zone_Title = _reader.GetString(1);
-                    //obj.Is_Active = _reader.GetBoolean(2);
+                    obj.Is_Active = _reader.GetBoolean(2);
                     var response = obj;
                     return new OkObjectResult(JsonConvert.SerializeObject(response));
                 }
@@ -75,7 +75,7 @@ namespace ParkingFunctionApp.ParkingZone
                     {
                         Id = _reader.GetInt32(0),
                         Parking_Zone_Title = _reader.GetString(1),
-                      //  Is_Active = _reader.GetBoolean(2)
+                        Is_Active = _reader.GetBoolean(2)
                     };
 
                     obj_lst.Add(obj);

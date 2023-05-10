@@ -10,6 +10,6 @@ namespace ParkingFunctionApp.Modle
     public class DLLUtility
     {
         public int Opcode { get; set; }
-        public DataSet ds { get; set; }
+        
     }
 }

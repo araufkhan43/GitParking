@@ -10,6 +10,7 @@ using System.Data.SqlClient;
 using System.Data;
 using ParkingFunctionApp.Connection;
 using ParkingFunctionApp.Modle;
+using System;
 
 namespace ParkingFunctionApp.ParkingZone
 {
@@ -26,14 +27,15 @@ namespace ParkingFunctionApp.ParkingZone
             SqlConnection connection = Utility.GetConnection();
 
             connection.Open();
-
-            string statement = "INSERT INTO parking_zone(Parking_Zone_Title,Is_Active) VALUES(@param2,@param3)";
+            
+        string statement = "INSERT INTO parking_zone(Parking_Zone_Title,Is_Active,CreatedOn) VALUES(@param2,@param3,@param4)";
 
             using (SqlCommand command = new SqlCommand(statement, connection))
             {
                 command.Parameters.Add("@param1", SqlDbType.Int).Value = 0;
                 command.Parameters.Add("@param2", SqlDbType.NVarChar, 1000).Value = data.Parking_Zone_Title;
                 command.Parameters.Add("@param3", SqlDbType.Bit).Value = data.Is_Active;
+                command.Parameters.Add("@param4", SqlDbType.DateTime).Value = DateTime.Now;
                 command.CommandType = CommandType.Text;
                 command.ExecuteNonQuery();
 
