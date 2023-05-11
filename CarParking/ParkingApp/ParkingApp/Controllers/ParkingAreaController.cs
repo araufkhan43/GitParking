@@ -55,16 +55,36 @@ namespace ParkingApp.Controllers
         [HttpPost]
         public async Task<ActionResult> AddUpdate(ParkingArea obj)
         {
+            if (obj.Parking_Space_Title == null)
+            {
+                obj.parkinZonelist = _iparkingZoneBusiness.GetAll();
+                ModelState.AddModelError("Parking_Space_Title", "This field is required");
+                return View("Add",obj);
+            }
+            if (obj.Parking_Space_Title.Length > 40)
+            {
+                obj.parkinZonelist = _iparkingZoneBusiness.GetAll();
+                ModelState.AddModelError("Parking_Space_Title", "Max length is 40");
+                return View("Add", obj);
+
+            }
+            if (obj.Parking_Zone_Id==0)
+            {
+                obj.parkinZonelist = _iparkingZoneBusiness.GetAll();
+                ModelState.AddModelError("Parking_Zone_Id", "Max length is 40");
+                return View("Add", obj);
+
+            }
             var response = await _httpClinet.PostAsJsonAsync($"{_APIBaseAddress}/api/ParkingAreaApi/AddUpdate", obj);
             if (response.StatusCode == System.Net.HttpStatusCode.OK)
             {
                 if (obj.Id == 0)
                 {
-                    TempData["Message"] = "Zone added Successfully";
+                    TempData["Message"] = "Area added Successfully";
                 }
                 if (obj.Id > 0)
                 {
-                    TempData["Message"] = "Zone updated Successfully";
+                    TempData["Message"] = "Area updated Successfully";
 
                 }
                 return RedirectToAction("Index");

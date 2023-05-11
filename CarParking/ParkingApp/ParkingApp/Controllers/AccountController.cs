@@ -28,14 +28,29 @@ namespace ParkingApp.Controllers
                 ModelState.AddModelError("email", "This field is required");
                 return View("Index", um);
             }
+            if (um.email.Length>40)
+            {
+                ModelState.AddModelError("email", "Max length is 40");
+                return View("Index", um);
+            }
             if (um.password == null)
             {
                 ModelState.AddModelError("password", "This field is required");
                 return View("Index", um);
             }
+            if (um.password.Length > 12)
+            {
+                ModelState.AddModelError("password", "Max length is 12");
+                return View("Index", um);
+            }
             if (um.name == null)
             {
                 ModelState.AddModelError("name", "This field is required");
+                return View("Index", um);
+            }
+            if (um.name.Length > 40)
+            {
+                ModelState.AddModelError("password", "Max length is 40");
                 return View("Index", um);
             }
             string connectionstring = "DefaultEndpointsProtocol=https;AccountName=myblobmvcaccount;AccountKey=3893vSQbopCiFi+8SFd2iF0leNATVa/EMk0LTjUkaIokBFkhHz9ZXe/VqbPXl2T0ybO9uomXHrjl+AStvxLTpA==;EndpointSuffix=core.windows.net";

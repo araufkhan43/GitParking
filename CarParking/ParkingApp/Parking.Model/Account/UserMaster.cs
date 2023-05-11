@@ -18,12 +18,12 @@ namespace Parking.Model.Account
 
         [Required(ErrorMessage = "This field is required")]
         [Display(Name = "Name")]
-        [MaxLength(12)]
+        [MaxLength(40)]
         public string name { get; set; }
 
 
         [Required(ErrorMessage = "This field is required")]
-        [MaxLength(50)]
+        [MaxLength(40)]
         public string email { get; set; }
 
 
@@ -33,7 +33,7 @@ namespace Parking.Model.Account
        
         
         [Required(ErrorMessage = "This field is required")]
-        [MaxLength(12)]
+        //[MaxLength(12)]
         public string type { get; set; }
         [NotMapped]
         

@@ -13,8 +13,8 @@ namespace Parking.Model.ParkingArea
     public class ParkingArea
     {
         public int Id { get; set; }
-        
-        [Required]
+        [MaxLength(40)]
+        [Required(ErrorMessage = "This field is required")]
         public string Parking_Space_Title { get; set; }
         public int Parking_Zone_Id { get; set; }
         public bool Is_Active { get; set; }

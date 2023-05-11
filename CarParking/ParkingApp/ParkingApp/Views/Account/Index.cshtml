@@ -92,7 +92,7 @@
                                             <div class="form-group">
                                                 <label asp-for="name">Name<span style="color:red;">*</span></label>
 
-                                                <input type="text" asp-for="name" class="form-control input-sm" />
+                                                <input type="text" asp-for="name" class="form-control input-sm" maxlength="40"/>
                                                 <span asp-validation-for="name"></span>
                                             </div>
                                         </div>
@@ -104,7 +104,7 @@
 
                                                 <label asp-for="email">Email<span style="color:red;">*</span></label>
 
-                                                <input type="text" asp-for="email" class="form-control input-sm" />
+                                                <input type="text" asp-for="email" class="form-control input-sm" maxlength="40" />
                                                 <span asp-validation-for="email"></span>
 
 
@@ -118,7 +118,7 @@
 
                                                 <label asp-for="password">Password<span style="color:red;">*</span></label>
 
-                                                <input type="password" asp-for="password" class="form-control input-sm" />
+                                                <input type="password" asp-for="password" class="form-control input-sm" maxlength="12" />
                                                 <span asp-validation-for="password"></span>
 
                                             </div>
